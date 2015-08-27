@@ -1,0 +1,14 @@
+[package]
+name = "simple-kv"
+version = "0.1.0"
+authors = ["Dan Burkert <dan@danburkert.com>"]
+
+[dependencies]
+docopt = "*"
+env_logger = "*"
+log = "*"
+mio = { git="https://github.com/carllerche/mio.git" }
+rustc-serialize = "*"
+histogram = "*"
+time = "*"
+rand = "*"
